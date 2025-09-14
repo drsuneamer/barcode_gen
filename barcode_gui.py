@@ -59,6 +59,7 @@ def save_image():
 root = tk.Tk()
 root.title("Code128 바코드 생성기")
 root.geometry("500x400")
+root.iconbitmap(resource_path("bcd_logo.ico"))  # 아이콘 변경
 
 label = tk.Label(root, text="바코드에 사용할 코드 입력:")
 label.pack(pady=10)
